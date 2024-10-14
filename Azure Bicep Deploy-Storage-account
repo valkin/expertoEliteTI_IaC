@@ -1,6 +1,6 @@
 resource storageAccount 'Microsoft.Storage/storageAccounts@2023-04-01' = {
   name: 'storage-account-IaC'
-  location: 'East US'
+  location: 'eastus'
   sku: {
     name: 'Standard_LRS'
   }

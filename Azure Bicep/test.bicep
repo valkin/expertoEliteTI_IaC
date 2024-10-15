@@ -10,17 +10,6 @@ resource firewall 'Microsoft.Network/azureFirewalls@2021-05-01' = {
       id: 'firewallPolicy.id'
     }
     ipConfigurations: [
-      {
-        name: 'name'
-        properties: {
-          subnet: {
-            id: 'subnet.id'
-          }
-          publicIPAddress: {
-            id: 'publicIPAddress.id'
-          }
-        }
-      }
     ]
   }
 }

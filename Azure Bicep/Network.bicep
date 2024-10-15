@@ -1,5 +1,5 @@
 resource vnet 'Microsoft.Network/virtualNetworks@2023-09-01' = {
-  name: 'labvnet'
+  name: 'labvnetiac'
    location: 'eastus'
     properties: {
        addressSpace: {
@@ -9,7 +9,7 @@ resource vnet 'Microsoft.Network/virtualNetworks@2023-09-01' = {
        }
         subnets: [
            {
-             name: 'labsubnet'
+             name: 'labsubnetiac'
               properties: {
                  addressPrefix: '10.13.37.0/24'
               }
@@ -19,7 +19,7 @@ resource vnet 'Microsoft.Network/virtualNetworks@2023-09-01' = {
 }
 
 resource nic 'Microsoft.Network/networkInterfaces@2023-09-01' = {
-  name: 'labvmnic'
+  name: 'labvmniciac'
    location: 'eastus'
     properties: {
        ipConfigurations: [

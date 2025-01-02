@@ -4,14 +4,14 @@ resource vnet 'Microsoft.Network/virtualNetworks@2023-09-01' = {
     properties: {
        addressSpace: {
          addressPrefixes: [
-          '10.13.37.0/24'
+          '10.17.45.0/24'
          ]
        }
         subnets: [
            {
              name: 'labsubnetiac'
               properties: {
-                 addressPrefix: '10.13.37.0/24'
+                 addressPrefix: '10.17.45.0/24'
               }
            }
         ]

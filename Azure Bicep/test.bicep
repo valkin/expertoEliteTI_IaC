@@ -1,6 +1,6 @@
 resource firewall 'Microsoft.Network/azureFirewalls@2021-05-01' = {
   name: 'name'
-  location: location
+  location: 'eastus'
   properties: {
     sku: {
       name: 'AZFW_VNet'

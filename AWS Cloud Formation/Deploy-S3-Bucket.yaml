@@ -3,5 +3,5 @@ Resources:
   MyBucket:
     Type: "AWS::S3::Bucket"
     Properties: {
-    "BucketName" : my-bucket-s3-TUNOMBRE-lab-iac-v1,
+    "BucketName" : my-bucket-s3-valkin100lab-iac-v1,
     }
